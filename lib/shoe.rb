@@ -22,9 +22,11 @@ def material
   @material
 end
 def brand 
+  self.brand="Nike"
   @brand
 end
 def cobble 
+  self.condition="new"
   @cobble
   puts "Your shoe is as good as new!"
   
@@ -38,4 +40,3 @@ end
 
 
 end
-hoe.brand=("new")
